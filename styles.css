@@ -1,0 +1,32 @@
+img{
+ width:300px;   
+}
+#parent1{
+  
+    font-size:20px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+body{
+ background-color:#454647;   
+}
+button{
+    box-shadow: 1px 2px 15px white;
+}
+#whale{
+ width:30px; 
+ position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.Here{
+    background-color: #454647;
+    background-color: red;
+     animation-name:Here;
+    animation-duration: 5s;
+}
+@keyframes Here{
+ from {background-color:#454647;}   
+ to{background-color:red;}
+}
